@@ -1,0 +1,634 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5EAA9D9C1DF85BD60024D462 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EAA9D9B1DF85BD60024D462 /* main.m */; };
+		5EAA9D9F1DF85BD60024D462 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EAA9D9E1DF85BD60024D462 /* AppDelegate.m */; };
+		5EAA9DA21DF85BD60024D462 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EAA9DA11DF85BD60024D462 /* ViewController.m */; };
+		5EAA9DA51DF85BD60024D462 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EAA9DA31DF85BD60024D462 /* Main.storyboard */; };
+		5EAA9DA71DF85BD60024D462 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EAA9DA61DF85BD60024D462 /* Assets.xcassets */; };
+		5EAA9DAA1DF85BD60024D462 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EAA9DA81DF85BD60024D462 /* LaunchScreen.storyboard */; };
+		5EAA9DB51DF85BD60024D462 /* NZHSegueIconViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EAA9DB41DF85BD60024D462 /* NZHSegueIconViewTests.m */; };
+		5EAA9DC01DF85BD60024D462 /* NZHSegueIconViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EAA9DBF1DF85BD60024D462 /* NZHSegueIconViewUITests.m */; };
+		5EAA9DCF1DF85C060024D462 /* SegueView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EAA9DCE1DF85C060024D462 /* SegueView.m */; };
+		5EAA9DD21DF8DCF00024D462 /* location.png in Resources */ = {isa = PBXBuildFile; fileRef = 5EAA9DD11DF8DCF00024D462 /* location.png */; };
+		5EAA9DD41DF8DEC90024D462 /* IconViewTurnLeft.png in Resources */ = {isa = PBXBuildFile; fileRef = 5EAA9DD31DF8DEC90024D462 /* IconViewTurnLeft.png */; };
+		5EAA9DD61DF8DEFF0024D462 /* IconViewTurnRight.png in Resources */ = {isa = PBXBuildFile; fileRef = 5EAA9DD51DF8DEFF0024D462 /* IconViewTurnRight.png */; };
+		88C806FD8BAE83F4D0F87C37 /* Pods_NZHSegueIconView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDEE7F2004953ACEB5BA4206 /* Pods_NZHSegueIconView.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5EAA9DB11DF85BD60024D462 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5EAA9D8F1DF85BD60024D462 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5EAA9D961DF85BD60024D462;
+			remoteInfo = NZHSegueIconView;
+		};
+		5EAA9DBC1DF85BD60024D462 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5EAA9D8F1DF85BD60024D462 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5EAA9D961DF85BD60024D462;
+			remoteInfo = NZHSegueIconView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5EAA9D971DF85BD60024D462 /* NZHSegueIconView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NZHSegueIconView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EAA9D9B1DF85BD60024D462 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5EAA9D9D1DF85BD60024D462 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5EAA9D9E1DF85BD60024D462 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5EAA9DA01DF85BD60024D462 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5EAA9DA11DF85BD60024D462 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5EAA9DA41DF85BD60024D462 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5EAA9DA61DF85BD60024D462 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5EAA9DA91DF85BD60024D462 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5EAA9DAB1DF85BD60024D462 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5EAA9DB01DF85BD60024D462 /* NZHSegueIconViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NZHSegueIconViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EAA9DB41DF85BD60024D462 /* NZHSegueIconViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NZHSegueIconViewTests.m; sourceTree = "<group>"; };
+		5EAA9DB61DF85BD60024D462 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5EAA9DBB1DF85BD60024D462 /* NZHSegueIconViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NZHSegueIconViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EAA9DBF1DF85BD60024D462 /* NZHSegueIconViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NZHSegueIconViewUITests.m; sourceTree = "<group>"; };
+		5EAA9DC11DF85BD60024D462 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5EAA9DCD1DF85C060024D462 /* SegueView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SegueView.h; sourceTree = "<group>"; };
+		5EAA9DCE1DF85C060024D462 /* SegueView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SegueView.m; sourceTree = "<group>"; };
+		5EAA9DD11DF8DCF00024D462 /* location.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = location.png; sourceTree = "<group>"; };
+		5EAA9DD31DF8DEC90024D462 /* IconViewTurnLeft.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IconViewTurnLeft.png; sourceTree = "<group>"; };
+		5EAA9DD51DF8DEFF0024D462 /* IconViewTurnRight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IconViewTurnRight.png; sourceTree = "<group>"; };
+		88FCE1A842DABFF647F1DAE4 /* Pods-NZHSegueIconView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NZHSegueIconView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NZHSegueIconView/Pods-NZHSegueIconView.debug.xcconfig"; sourceTree = "<group>"; };
+		920EFF465042DFE6705EF56E /* Pods-NZHSegueIconView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NZHSegueIconView.release.xcconfig"; path = "Pods/Target Support Files/Pods-NZHSegueIconView/Pods-NZHSegueIconView.release.xcconfig"; sourceTree = "<group>"; };
+		CDEE7F2004953ACEB5BA4206 /* Pods_NZHSegueIconView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NZHSegueIconView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5EAA9D941DF85BD60024D462 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88C806FD8BAE83F4D0F87C37 /* Pods_NZHSegueIconView.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EAA9DAD1DF85BD60024D462 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EAA9DB81DF85BD60024D462 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0728B4A839D4665AC7EECD99 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CDEE7F2004953ACEB5BA4206 /* Pods_NZHSegueIconView.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5EAA9D8E1DF85BD60024D462 = {
+			isa = PBXGroup;
+			children = (
+				5EAA9D991DF85BD60024D462 /* NZHSegueIconView */,
+				5EAA9DB31DF85BD60024D462 /* NZHSegueIconViewTests */,
+				5EAA9DBE1DF85BD60024D462 /* NZHSegueIconViewUITests */,
+				5EAA9D981DF85BD60024D462 /* Products */,
+				FACB309D1479CEEBDAB567ED /* Pods */,
+				0728B4A839D4665AC7EECD99 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5EAA9D981DF85BD60024D462 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5EAA9D971DF85BD60024D462 /* NZHSegueIconView.app */,
+				5EAA9DB01DF85BD60024D462 /* NZHSegueIconViewTests.xctest */,
+				5EAA9DBB1DF85BD60024D462 /* NZHSegueIconViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5EAA9D991DF85BD60024D462 /* NZHSegueIconView */ = {
+			isa = PBXGroup;
+			children = (
+				5EAA9D9D1DF85BD60024D462 /* AppDelegate.h */,
+				5EAA9D9E1DF85BD60024D462 /* AppDelegate.m */,
+				5EAA9DA01DF85BD60024D462 /* ViewController.h */,
+				5EAA9DA11DF85BD60024D462 /* ViewController.m */,
+				5EAA9DD11DF8DCF00024D462 /* location.png */,
+				5EAA9DD01DF85C090024D462 /* NZHSegueIconView */,
+				5EAA9DA31DF85BD60024D462 /* Main.storyboard */,
+				5EAA9DA61DF85BD60024D462 /* Assets.xcassets */,
+				5EAA9DA81DF85BD60024D462 /* LaunchScreen.storyboard */,
+				5EAA9DAB1DF85BD60024D462 /* Info.plist */,
+				5EAA9D9A1DF85BD60024D462 /* Supporting Files */,
+			);
+			path = NZHSegueIconView;
+			sourceTree = "<group>";
+		};
+		5EAA9D9A1DF85BD60024D462 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5EAA9D9B1DF85BD60024D462 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5EAA9DB31DF85BD60024D462 /* NZHSegueIconViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				5EAA9DB41DF85BD60024D462 /* NZHSegueIconViewTests.m */,
+				5EAA9DB61DF85BD60024D462 /* Info.plist */,
+			);
+			path = NZHSegueIconViewTests;
+			sourceTree = "<group>";
+		};
+		5EAA9DBE1DF85BD60024D462 /* NZHSegueIconViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5EAA9DBF1DF85BD60024D462 /* NZHSegueIconViewUITests.m */,
+				5EAA9DC11DF85BD60024D462 /* Info.plist */,
+			);
+			path = NZHSegueIconViewUITests;
+			sourceTree = "<group>";
+		};
+		5EAA9DD01DF85C090024D462 /* NZHSegueIconView */ = {
+			isa = PBXGroup;
+			children = (
+				5EAA9DCD1DF85C060024D462 /* SegueView.h */,
+				5EAA9DCE1DF85C060024D462 /* SegueView.m */,
+				5EAA9DD31DF8DEC90024D462 /* IconViewTurnLeft.png */,
+				5EAA9DD51DF8DEFF0024D462 /* IconViewTurnRight.png */,
+			);
+			name = NZHSegueIconView;
+			sourceTree = "<group>";
+		};
+		FACB309D1479CEEBDAB567ED /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				88FCE1A842DABFF647F1DAE4 /* Pods-NZHSegueIconView.debug.xcconfig */,
+				920EFF465042DFE6705EF56E /* Pods-NZHSegueIconView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5EAA9D961DF85BD60024D462 /* NZHSegueIconView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EAA9DC41DF85BD60024D462 /* Build configuration list for PBXNativeTarget "NZHSegueIconView" */;
+			buildPhases = (
+				4A750EABCDEE4CFBD691C884 /* [CP] Check Pods Manifest.lock */,
+				5EAA9D931DF85BD60024D462 /* Sources */,
+				5EAA9D941DF85BD60024D462 /* Frameworks */,
+				5EAA9D951DF85BD60024D462 /* Resources */,
+				2A403DE09D0ED217FDE257AB /* [CP] Embed Pods Frameworks */,
+				B0439E538A7E7DB37486DA0C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NZHSegueIconView;
+			productName = NZHSegueIconView;
+			productReference = 5EAA9D971DF85BD60024D462 /* NZHSegueIconView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5EAA9DAF1DF85BD60024D462 /* NZHSegueIconViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EAA9DC71DF85BD60024D462 /* Build configuration list for PBXNativeTarget "NZHSegueIconViewTests" */;
+			buildPhases = (
+				5EAA9DAC1DF85BD60024D462 /* Sources */,
+				5EAA9DAD1DF85BD60024D462 /* Frameworks */,
+				5EAA9DAE1DF85BD60024D462 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5EAA9DB21DF85BD60024D462 /* PBXTargetDependency */,
+			);
+			name = NZHSegueIconViewTests;
+			productName = NZHSegueIconViewTests;
+			productReference = 5EAA9DB01DF85BD60024D462 /* NZHSegueIconViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5EAA9DBA1DF85BD60024D462 /* NZHSegueIconViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EAA9DCA1DF85BD60024D462 /* Build configuration list for PBXNativeTarget "NZHSegueIconViewUITests" */;
+			buildPhases = (
+				5EAA9DB71DF85BD60024D462 /* Sources */,
+				5EAA9DB81DF85BD60024D462 /* Frameworks */,
+				5EAA9DB91DF85BD60024D462 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5EAA9DBD1DF85BD60024D462 /* PBXTargetDependency */,
+			);
+			name = NZHSegueIconViewUITests;
+			productName = NZHSegueIconViewUITests;
+			productReference = 5EAA9DBB1DF85BD60024D462 /* NZHSegueIconViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5EAA9D8F1DF85BD60024D462 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = iiyumewo;
+				TargetAttributes = {
+					5EAA9D961DF85BD60024D462 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					5EAA9DAF1DF85BD60024D462 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5EAA9D961DF85BD60024D462;
+					};
+					5EAA9DBA1DF85BD60024D462 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5EAA9D961DF85BD60024D462;
+					};
+				};
+			};
+			buildConfigurationList = 5EAA9D921DF85BD60024D462 /* Build configuration list for PBXProject "NZHSegueIconView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5EAA9D8E1DF85BD60024D462;
+			productRefGroup = 5EAA9D981DF85BD60024D462 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5EAA9D961DF85BD60024D462 /* NZHSegueIconView */,
+				5EAA9DAF1DF85BD60024D462 /* NZHSegueIconViewTests */,
+				5EAA9DBA1DF85BD60024D462 /* NZHSegueIconViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5EAA9D951DF85BD60024D462 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EAA9DD61DF8DEFF0024D462 /* IconViewTurnRight.png in Resources */,
+				5EAA9DAA1DF85BD60024D462 /* LaunchScreen.storyboard in Resources */,
+				5EAA9DA71DF85BD60024D462 /* Assets.xcassets in Resources */,
+				5EAA9DD21DF8DCF00024D462 /* location.png in Resources */,
+				5EAA9DD41DF8DEC90024D462 /* IconViewTurnLeft.png in Resources */,
+				5EAA9DA51DF85BD60024D462 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EAA9DAE1DF85BD60024D462 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EAA9DB91DF85BD60024D462 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2A403DE09D0ED217FDE257AB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NZHSegueIconView/Pods-NZHSegueIconView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4A750EABCDEE4CFBD691C884 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B0439E538A7E7DB37486DA0C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NZHSegueIconView/Pods-NZHSegueIconView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5EAA9D931DF85BD60024D462 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EAA9DA21DF85BD60024D462 /* ViewController.m in Sources */,
+				5EAA9D9F1DF85BD60024D462 /* AppDelegate.m in Sources */,
+				5EAA9DCF1DF85C060024D462 /* SegueView.m in Sources */,
+				5EAA9D9C1DF85BD60024D462 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EAA9DAC1DF85BD60024D462 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EAA9DB51DF85BD60024D462 /* NZHSegueIconViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EAA9DB71DF85BD60024D462 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EAA9DC01DF85BD60024D462 /* NZHSegueIconViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5EAA9DB21DF85BD60024D462 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5EAA9D961DF85BD60024D462 /* NZHSegueIconView */;
+			targetProxy = 5EAA9DB11DF85BD60024D462 /* PBXContainerItemProxy */;
+		};
+		5EAA9DBD1DF85BD60024D462 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5EAA9D961DF85BD60024D462 /* NZHSegueIconView */;
+			targetProxy = 5EAA9DBC1DF85BD60024D462 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5EAA9DA31DF85BD60024D462 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5EAA9DA41DF85BD60024D462 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5EAA9DA81DF85BD60024D462 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5EAA9DA91DF85BD60024D462 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5EAA9DC21DF85BD60024D462 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5EAA9DC31DF85BD60024D462 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5EAA9DC51DF85BD60024D462 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88FCE1A842DABFF647F1DAE4 /* Pods-NZHSegueIconView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NZHSegueIconView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = iiyumewo.NZHSegueIconView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5EAA9DC61DF85BD60024D462 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 920EFF465042DFE6705EF56E /* Pods-NZHSegueIconView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NZHSegueIconView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = iiyumewo.NZHSegueIconView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5EAA9DC81DF85BD60024D462 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NZHSegueIconViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = iiyumewo.NZHSegueIconViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NZHSegueIconView.app/NZHSegueIconView";
+			};
+			name = Debug;
+		};
+		5EAA9DC91DF85BD60024D462 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NZHSegueIconViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = iiyumewo.NZHSegueIconViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NZHSegueIconView.app/NZHSegueIconView";
+			};
+			name = Release;
+		};
+		5EAA9DCB1DF85BD60024D462 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = NZHSegueIconViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = iiyumewo.NZHSegueIconViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = NZHSegueIconView;
+			};
+			name = Debug;
+		};
+		5EAA9DCC1DF85BD60024D462 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = NZHSegueIconViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = iiyumewo.NZHSegueIconViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = NZHSegueIconView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5EAA9D921DF85BD60024D462 /* Build configuration list for PBXProject "NZHSegueIconView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EAA9DC21DF85BD60024D462 /* Debug */,
+				5EAA9DC31DF85BD60024D462 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5EAA9DC41DF85BD60024D462 /* Build configuration list for PBXNativeTarget "NZHSegueIconView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EAA9DC51DF85BD60024D462 /* Debug */,
+				5EAA9DC61DF85BD60024D462 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5EAA9DC71DF85BD60024D462 /* Build configuration list for PBXNativeTarget "NZHSegueIconViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EAA9DC81DF85BD60024D462 /* Debug */,
+				5EAA9DC91DF85BD60024D462 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5EAA9DCA1DF85BD60024D462 /* Build configuration list for PBXNativeTarget "NZHSegueIconViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EAA9DCB1DF85BD60024D462 /* Debug */,
+				5EAA9DCC1DF85BD60024D462 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5EAA9D8F1DF85BD60024D462 /* Project object */;
+}
