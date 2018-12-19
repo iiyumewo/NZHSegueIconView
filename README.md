@@ -20,9 +20,7 @@ The normal usage is like this, only need an icons array and a title string array
                                  [UIImage imageNamed:@"location"]];
     segueView.infoTextArray = @[@"全科", @"妇产科", @"儿科", @"口腔科", @"眼科", @"皮肤科", @"内分泌科"];
 ```
-![SegueIconViewSingle]
-(https://github.com/iiyumewo/NZHSegueIconView/blob/master/ReadME/SegueIconViewSingle.gif?raw=true)
+![SegueIconViewSingle](https://github.com/iiyumewo/NZHSegueIconView/blob/master/ReadME/SegueIconViewSingle.gif?raw=true)
 
 If the number of icons exceeds 8, it will automatically make the page scrollable to show the other icons:
-![SegueIconViewPlural]
-(https://github.com/iiyumewo/NZHSegueIconView/blob/master/ReadME/SegueIconViewPlural.gif?raw=true)
+![SegueIconViewPlural](https://github.com/iiyumewo/NZHSegueIconView/blob/master/ReadME/SegueIconViewPlural.gif?raw=true)
